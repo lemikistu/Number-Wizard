@@ -1,58 +1,39 @@
-sudo: required
-language: bash
+language: objective-c
+osx_image: xcode9.2
+rvm:
+- 2.2         #see before_install for getting RVM stable.
+
 env:
-  global:
-  - IMAGE_NAME=gableroux/unity3d:2018.2.11f1
-  - BUILD_NAME=Number-Wizard
-services:
-- docker
+- TRAVIS_TAG="Deploy-2018.2.0f3" PROJECT_NAME="Wizard" UNITY_PROJECT_PATH="UnityExample" DEPLOY_UNITYPACKAGE="path set in deploy script"
+
+
+cache:
+  directories:
+    - $UNITY_DOWNLOAD_CACHE
+
+    
 before_install:
-- openssl aes-256-cbc -K $encrypted_82766e747237_key -iv $encrypted_82766e747237_iv
-  -in Unity_v2018.x.ulf.enc -out ./Unity_v2018.x.ulf -d
-- export UNITY_LICENSE_CONTENT=`cat Unity_v2018.x.ulf`
-- rm Unity_v2018.x.ulf
-- docker pull $IMAGE_NAME
-jobs:
-  include:
-  - stage: test
-    script: "chmod +x ./ci/docker_test.sh && ./ci/docker_test.sh"
-    env: TEST_PLATFORM=editmode
-    addons:
-      artifacts:
-        target_paths:
-        - "$(pwd)/$TEST_PLATFORM-results.xml"
-  - stage: test
-    script: "chmod +x ./ci/docker_test.sh && ./ci/docker_test.sh"
-    env: TEST_PLATFORM=playmode
-    addons:
-      artifacts:
-        target_paths:
-        - "$(pwd)/$TEST_PLATFORM-results.xml"
-  - stage: build
-    env: BUILD_TARGET=StandaloneLinux64
-    script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
-    addons:
-      artifacts:
-        target_paths:
-        - "./Builds/"
-  - stage: build
-    env: BUILD_TARGET=StandaloneOSX
-    script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
-    addons:
-      artifacts:
-        target_paths:
-        - "./Builds/"
-  - stage: build
-    env: BUILD_TARGET=StandaloneWindows64
-    script: "chmod +x ./ci/docker_build.sh &&./ci/docker_build.sh"
-    addons:
-      artifacts:
-        target_paths:
-        - "./Builds/"
-  - stage: build
-    env: BUILD_TARGET=WebGL
-    script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
-    addons:
-      artifacts:
-        target_paths:
-        - "./Builds/"
+- chmod a+x ./travis-build/*.sh
+
+install:
+- cat /etc/hosts
+- ./travis-build/install-unity.sh
+
+script:
+- ./travis-build/build.sh
+- ./travis-build/run-tests.sh
+
+after_success:
+- ./travis-build/export-unity-package.sh
+
+before_deploy:
+- DEPLOY_UNITYPACKAGE="$(ls -a release/*.zip | head -n 1)"
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: $DEPLOY_UNITYPACKAGE
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true 
