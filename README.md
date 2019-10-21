@@ -1,6 +1,6 @@
 #  Number Wizard
 
-Number Wizard Game Written in C# Using Unity Game Engine [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ff3b2df98df406eb32c3aca91779aba)](https://www.codacy.com/manual/orhanarifoglu/Number-Wizard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=orhanarifoglu/Number-Wizard&amp;utm_campaign=Badge_Grade)
+Number Wizard Game Written in C# Using Unity Game Engine [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ff3b2df98df406eb32c3aca91779aba)](https://www.codacy.com/manual/orhanarifoglu/Number-Wizard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=orhanarifoglu/Number-Wizard&amp;utm_campaign=Badge_Grade) [![CodeFactor](https://www.codefactor.io/repository/github/orhanarifoglu/number-wizard/badge)](https://www.codefactor.io/repository/github/orhanarifoglu/number-wizard)
 
 
 ## Getting Started
