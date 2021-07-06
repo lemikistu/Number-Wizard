@@ -1,4 +1,4 @@
-To Play: https://orhana.itch.io/number-wizard
+
 
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -43,7 +43,7 @@ To Play: https://orhana.itch.io/number-wizard
     <a href="https://github.com/orhanar/Number-Wizard"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/orhanar/Number-Wizard">View Demo</a>
+    <a href="https://orhana.itch.io/number-wizard">View Demo</a>
     ·
     <a href="https://github.com/orhanar/Number-Wizard/issues">Report Bug</a>
     ·
