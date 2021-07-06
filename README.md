@@ -35,7 +35,7 @@ To Play: https://orhana.itch.io/number-wizard
 <br />
 <p align="center">
   <a href="https://github.com/orhanar/Number-Wizard">
-    <img src="images/number wizard.png" alt="Logo" width="80" height="80">
+    <img src="images/number wizard.png" alt="Logo" width="240" height="240">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
