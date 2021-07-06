@@ -38,19 +38,19 @@ To Play: https://orhana.itch.io/number-wizard
     <img src="images/number wizard.png" alt="Logo" width="240" height="240">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Number Wizard</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Number Wizard game made in Unity!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/orhanar/Number-Wizard"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/orhanar/Number-Wizard">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/orhanar/Number-Wizard/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/orhanar/Number-Wizard/issues">Request Feature</a>
   </p>
 </p>
 
