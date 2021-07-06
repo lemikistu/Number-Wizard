@@ -34,7 +34,7 @@ To Play: https://orhana.itch.io/number-wizard
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/orhanar/Number-Wizard">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
