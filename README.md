@@ -215,4 +215,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/orhanar/Number-Wizard/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/orhanarifoglu/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/number wizard.gif
