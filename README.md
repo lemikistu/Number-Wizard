@@ -1,8 +1,3 @@
-#  Number Wizard
-
-Number Wizard Game Written in C# Using Unity Game Engine [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ff3b2df98df406eb32c3aca91779aba)](https://www.codacy.com/manual/orhanar/Number-Wizard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=orhanar/Number-Wizard&amp;utm_campaign=Badge_Grade) 
-[![CodeFactor](https://www.codefactor.io/repository/github/orhanar/Number-Wizard/badge)](https://www.codefactor.io/repository/github/orhanar/Number-Wizard) 
-
 To Play: https://orhana.itch.io/number-wizard
 
 <!--
@@ -28,6 +23,8 @@ To Play: https://orhana.itch.io/number-wizard
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ff3b2df98df406eb32c3aca91779aba)](https://www.codacy.com/manual/orhanar/Number-Wizard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=orhanar/Number-Wizard&amp;utm_campaign=Badge_Grade) 
+[![CodeFactor](https://www.codefactor.io/repository/github/orhanar/Number-Wizard/badge)](https://www.codefactor.io/repository/github/orhanar/Number-Wizard) 
 
 
 
