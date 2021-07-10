@@ -109,48 +109,43 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You don't need a lot of steps to run the game. Just Unity engine, but for sure you need a lot of space because Unity engine is the reason why I had to give up on some of my dreams. It literally, with Windows, would eat all of your SSD space. So goodbye Photoshop, I guess no Adobe Programs for me! So if one, like me, accepted this harsh truth, they can access the enjoyment of this otherwise beautiful engine.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+You need Unity 2020( any variant) or greater to run this game without any issues. I recommend using Unity Hub for ease of use.
+* Unity
+  ```to install
+  https://unity3d.com/get-unity/download/archive
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Install Unity 2020 or higher version [Unity](https://unity3d.com/get-unity/download/archive)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/https://github.com/orhanar/Number-Wizard.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+3. Go to Unity Hub
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+   Click create new and select the path you cloned the repo
    ```
-
-
+4. Launch the game
+   
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+You can use this game to create new game concepts that use multiple linear level designs. Level loader logic is there. It is also a great resource to have for checking how buttons work in Unity.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://docs.unity3d.com/Manual/index.html)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/orhanar/Number-Wizard/issues) for a list of proposed features (and known issues).
 
 
 
@@ -177,27 +172,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Orhan Arifoglu - [@myWebsite](https://orhanar.github.io/) - orhanarifoglu@outlook.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/orhanar/Number-Wizard](https://github.com/orhanar/Number-Wizard)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
+* [Unity Documentation](https://docs.unity3d.com/Manual/index.html)
+* [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
 
 
